@@ -1,19 +1,20 @@
-// config/site.ts
 export const siteConfig = {
-    name: "BJJ Techniques", // Vous devez ajouter cette propriété
-    title: "Bienvenue sur BJJ Techniques",
-    description: "Explorez notre collection de techniques de Jiu-Jitsu Brésilien.",
-    mainNav: [
+  name: "BJJ Techniques",
+  title: "Bienvenue sur BJJ Techniques",
+  description: "Explorez notre collection de techniques de Jiu-Jitsu Brésilien.",
+  mainNav: [
       {
-        title: "Accueil",
-        href: "/",
+          title: "Accueil",
+          href: "/",
       },
       {
-        title: "Techniques",
-        href: "/techniques",
+          title: "Techniques",
+          href: "/techniques",
       },
-    ],
-  };
-  
-  export default siteConfig;
-  
+  ],
+  links: {
+      github: "https://github.com/Matgig-ai/bjj-techniques",
+      twitter: "https://twitter.com/BJJTechniques",
+  },
+};
+export default siteConfig;
