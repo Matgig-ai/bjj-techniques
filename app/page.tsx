@@ -1,4 +1,4 @@
-// app/page.js
+// app/page.tsx
 export default function Home() {
   return (
     <div>
