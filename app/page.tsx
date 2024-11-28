@@ -1,10 +1,9 @@
-// app/page.tsx
+import TechniquesGrid from "@/components/techniques-grid"
 
-export default function Home() {
+export default function Page() {
   return (
-    <div>
-      <h1>Bienvenue sur BJJ Techniques !</h1>
-      <p>Explorez notre collection de techniques de Jiu-Jitsu Brésilien.</p>
-    </div>
-  );
+    <main className="min-h-screen">
+      <TechniquesGrid />
+    </main>
+  )
 }
