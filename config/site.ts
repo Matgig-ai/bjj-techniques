@@ -1,8 +1,8 @@
 // config/site.ts
-
-export const siteConfig = {
-    title: "BJJ Techniques",
-    description: "Explorez les meilleures techniques de Jiu-Jitsu Brésilien",
+const siteConfig = {
+    name: "BJJ Techniques", // Vous devez ajouter cette propriété
+    title: "Bienvenue sur BJJ Techniques",
+    description: "Explorez notre collection de techniques de Jiu-Jitsu Brésilien.",
     mainNav: [
       {
         title: "Accueil",
@@ -14,4 +14,6 @@ export const siteConfig = {
       },
     ],
   };
+  
+  export default siteConfig;
   
