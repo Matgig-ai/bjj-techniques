@@ -1,3 +1,5 @@
+// config/site.ts
+
 export const siteConfig = {
   name: "BJJ Techniques",
   title: "Bienvenue sur BJJ Techniques",
@@ -17,4 +19,5 @@ export const siteConfig = {
       twitter: "https://twitter.com/BJJTechniques",
   },
 };
+
 export default siteConfig;
